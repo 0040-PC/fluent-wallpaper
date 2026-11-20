@@ -1,0 +1,8 @@
+fluent-wallpaper
+Copyright 2026 fluent-wallpaper contributors
+
+Licensed under the Apache License, Version 2.0.
+See the LICENSE file for the full license text.
+
+Shader binaries, shader sources and textures under wallpaper/plugins/ are not
+licensed under the Apache License 2.0. See LICENSE-ASSETS.

@@ -1,0 +1,5 @@
+module FluentUI
+
+FluentButton 1.0 Buttons/FluentButton.qml
+FluentNavButton 1.0 Navigation/FluentNavButton.qml
+FluentNavigation 1.0 Navigation/FluentNavigation.qml

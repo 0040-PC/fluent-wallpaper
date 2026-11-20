@@ -1,0 +1,5 @@
+module Veil
+TitleBar 1.0 TitleBar.qml
+SystemButtons 1.0 SystemButtons.qml
+ResizeGripper 1.0 ResizeGripper.qml
+VeilClickImpulse 1.0 VeilClickImpulse.qml
