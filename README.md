@@ -2,6 +2,19 @@
 
 Windows 上的 Qt Quick 无边框窗口框架（Veil）与壁纸引擎示例。
 
+## 截图
+
+Monadology、SilkCocoon、GoldClassic，窗口材质均为 Acrylic。
+
+<p align="center">
+  <img src="https://37kt4leu5rtbrkuoguc.traesite.cn/assets/monadology.png" alt="Monadology 壁纸，Acrylic 材质" width="100%">
+</p>
+
+<p align="center">
+  <img src="https://37kt4leu5rtbrkuoguc.traesite.cn/assets/silkcocoon.png" alt="SilkCocoon 壁纸，Acrylic 材质" width="49%">
+  <img src="https://37kt4leu5rtbrkuoguc.traesite.cn/assets/goldclassic.png" alt="GoldClassic 壁纸，Acrylic 材质" width="49%">
+</p>
+
 ## 组成
 
 - `veil/`：无边框窗口核心。DWM 背景材质、非客户区命中测试、系统按钮、缩放握把、窗口动画
@@ -29,7 +42,7 @@ pythonw main.pyw     # 无控制台启动
 - 左侧导航由 `wallpaper/plugins` 扫描生成：根目录的 `.qml` 和子目录的 `*Plugin.qml` 各算一项
 - 首次点击壁纸时才启动 `wallpaper/engine/entry.py`，之后通过命名管道发送加载指令
 - 客户区按钮切换窗口材质：Mica、Mica Alt、Acrylic、None
-- 关闭 main 不会结束引擎，壁纸会保留；再次打开 main 会检测到引擎在线
+- 关闭 main 会结束引擎，壁纸随之停止
 
 ## 架构
 
